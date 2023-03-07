@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -14,28 +14,40 @@
 p,
 span {
     color: #fff;
+    margin-bottom: 50px;
 }
 
 .skills-container .skill {
-    max-width: 600px;
-    margin: 30px auto;
+    max-width: 100%;
+    padding-left: 10%;
+    display: flex;
 }
 
 .skills-container .skill .info {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.skills-container .skill .list {
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    background-color: #fff;
+ul {
+    flex-wrap: wrap;
+}
+
+.skills-container .skill .list ul,
+li {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.list i {
+    margin-right: 5px;
 }
 
 @media screen and (max-width:800px) {
     #skills-container {
         padding: 50px 20px;
+    }
+    .list p {
+        font-size: 20px;
     }
 }
