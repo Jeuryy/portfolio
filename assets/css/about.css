@@ -17,7 +17,7 @@
     padding: 20px;
     width: 100%;
     border-radius: 20px;
-    background-color: #f3f3f3;
+    background: linear-gradient(rgb(42, 32, 61), #6b6589cc);
 }
 
 #aboutme .aboutme .section-title {

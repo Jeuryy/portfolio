@@ -3,7 +3,7 @@
 #educations {
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background: linear-gradient(#6b6589cc, rgb(205, 204, 209));
 }
 
 #educations .section-title {
@@ -55,6 +55,10 @@
 
 .alura {
     margin-top: 55px !important;
+}
+
+.politecnico {
+    width: 90%;
 }
 
 #educations .row .education ul {
