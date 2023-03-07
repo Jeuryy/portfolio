@@ -1,0 +1,118 @@
+/*SKILLS SECTION*/
+
+.skills-container {
+    background: linear-gradient(#3f2aa9cc, rgb(16, 12, 24)), url('../img/skills-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.skills-container h3,
+p,
+span {
+    color: #fff;
+}
+
+.skills-container .skill {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.skills-container .skill .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container .skill .list {
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
+
+.skills-container .skill .bar {
+    background-color: #919191;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0;
+}
+
+
+/*Will be applied with JS*/
+
+.skills-container.skill .bar .bar-progress1 {
+    background-color: #fff;
+    width: 85%;
+    height: 6px;
+    animation: progress1 2s forwards;
+}
+
+.skills-container.skill .bar .bar-progress2 {
+    background-color: #fff;
+    width: 85%;
+    height: 6px;
+    animation: progress2 2s forwards;
+}
+
+.skills-container.skill .bar .bar-progress3 {
+    background-color: #fff;
+    width: 70%;
+    height: 6px;
+    animation: progress3 2s forwards;
+}
+
+.skills-container.skill .bar .bar-progress4 {
+    background-color: #fff;
+    width: 95%;
+    height: 70;
+    animation: progress4 2s forwards;
+}
+
+
+/*Creating bars animation*/
+
+@keyframes progress1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes progress2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes progress3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes progress4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #skills-container {
+        padding: 50px 20px;
+    }
+}

@@ -1,0 +1,97 @@
+/*About me Section*/
+
+#aboutme {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#aboutme .photo-container {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#aboutme .photo-container img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#aboutme .aboutme .section-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#aboutme .aboutme h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#aboutme .aboutme h2 span {
+    color: #2A41FF;
+}
+
+#aboutme .aboutme h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#aboutme .aboutme p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#aboutme .aboutme a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#aboutme .aboutme a:hover {
+    background-color: #2A41FF;
+}
+
+@media screen and (max-width:800px) {
+    #aboutme {
+        padding: 50px 0;
+        display: block;
+    }
+    #aboutme .photo-container {
+        max-width: 200px;
+        margin: auto;
+    }
+    #aboutme .photo-container img {
+        padding: 8px;
+    }
+    #aboutme .aboutme .section-title {
+        text-align: center;
+    }
+    #aboutme .aboutme h2,
+    h3,
+    p {
+        font-size: 25px;
+        text-align: center;
+    }
+    #aboutme .aboutme a {
+        margin-left: 40%;
+    }
+}
