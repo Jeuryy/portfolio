@@ -10,6 +10,7 @@
     
     html {
         scroll-behavior: smooth;
+        background: linear-gradient(rgb(231, 229, 235), #dedce8cc);
     }
     
     #home {
