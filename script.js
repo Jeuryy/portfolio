@@ -16,7 +16,7 @@ const select = (link) => {
 
 
 //Show responsive menu
-/*const responsiveMenu = () => {
+const responsiveMenu = () => {
 
     let x = document.getElementById("nav");
     (x.className === "") ? x.className = "responsive": x.className = "";
@@ -34,4 +34,4 @@ function handleSubmit(event) {
     console.log(form.get('name'));
     btnMailto.setAttribute('href', `mailto:elyruej.102004@gmail.com?subject=${form.get('subject')} - ${form.get('name')}&body=${form.get('message')}`)
     btnMailto.click();
-}*/
+}
