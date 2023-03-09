@@ -153,8 +153,9 @@
     /*RESPONSIVE*/
     
     @media screen and (max-width: 800px) {
-        .networks {
-            display: none;
+        .content .networks {
+            position: absolute;
+            left: 50%;
         }
         nav {
             display: none;

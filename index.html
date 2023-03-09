@@ -108,7 +108,7 @@
                     <p><span class="list"><i class="fa-brands fa-js"></i></span>Javascript</p>
                 </li>
                 <li class="list">
-                    <p><span class="list"><i class="fa-solid fa-database"></i></span>Database</p>
+                    <p><span class="list"><i class="fa-solid fa-database"></i></span>SQL</p>
                 </li>
                 <li class="list">
                     <p><span class="list"><i class="fa-sharp fa-solid fa-code"></i></span>C#</p>
@@ -164,19 +164,29 @@
     <section id="contact">
         <h3 class="section-title">Contact me!</h3>
         <div class="form-container">
-            <form action="">
+            <form action="sendemail.php" method="POST" id="form">
                 <div class="half row">
-                    <input type="text" placeholder="Full name" class="half-input">
-                    <input type="email" placeholder="Email" class="half-input">
+                    <div>
+                        <label for="name" class="label">Name</label>
+                        <input type="text" name="name" placeholder="Full name" class="half-input" data-type="name" required>
+
+                    </div>
+                    <div>
+                        <label for="email" class="label">Email</label>
+                        <input type="email" name="email" placeholder="Email" class="half-input" data-type="email" required>
+                    </div>
                 </div>
                 <div class="row">
-                    <input type="text" placeholder="Topic..." class="full-input">
+                    <label for="subject" class="label">Subject</label>
+                    <input type="text" name="subject" placeholder="Subject" class="full-input" data-type="subject">
                 </div>
                 <div class="row">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="full-input"></textarea>
+                    <label for="message" class="label">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class="full-input" data-type="message" required></textarea>
                 </div>
                 <input type="submit" value="Send Message" class="btn-send">
             </form>
+            <!--<a href="mailto:elyruej.102004@gmail.com" id="mailto">mailto</a>-->
         </div>
     </section>
 
@@ -184,13 +194,14 @@
     <footer>
         <p>All rights reserved - 2023</p>
         <div class="networks">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jeury-pierre-dide/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Jeuryy" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/jeury_pd/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>

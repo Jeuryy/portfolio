@@ -12,7 +12,7 @@
         color: #111135;
         text-decoration: underline;
         text-decoration-color: #d3d3d3;
-        text-decoration-thickness: 5px;
+        text-decoration-thickness: 3px;
     }
     
     #contact .section-title {
@@ -29,20 +29,38 @@
     }
     
     #contact .form-container .half {
-        display: flex;
+        display: block;
         justify-content: space-between;
+    }
+    
+    .form-container div {
+        display: block;
+    }
+    
+    .form-container div input {
+        margin-bottom: 20px;
+    }
+    
+    .row div {
+        width: 100%;
+    }
+    
+    label {
+        padding-left: 5px;
+        font-weight: bold;
     }
     
     #contact .form-container input,
     #contact .form-container textarea {
-        padding: 20px;
-        border-radius: 20px;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 10px;
         border: none;
         border: 1px solid #919191;
     }
     
     #contact .form-container .half input {
-        width: 48%;
+        width: 100%;
     }
     
     #contact .form-container .full-input {
@@ -60,8 +78,12 @@
     }
     
     #contact .btn-send:hover {
-        background-color: #2A41FF;
+        background-color: #0c1884;
         color: #fff;
+    }
+    
+    #mailto {
+        opacity: 0;
     }
     
     @media screen and (max-width:800px) {
