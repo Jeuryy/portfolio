@@ -1,0 +1,64 @@
+@import url('../css.css');
+.education {
+    width: 300px;
+    box-shadow: var(--second-blue) 0px 1px 2px 0px, var(--second-blue) 0px 1px 3px 1px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px;
+    padding-bottom: 15px;
+}
+.img-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+.img{
+    max-width: 200px;
+}
+/*.education:hover {
+    box-shadow: var(--blue) 0px 2px 5px 0px;
+}*/
+.education hr {
+    width: 30%;
+    margin: auto;
+}
+.p-name {
+    color: #878787;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.date{
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+/*.alura {
+    margin-top: 55px !important;
+}
+
+.politecnico {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.education ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}*/
+
+/*@media screen and (max-width:280px) {
+    .img{
+        max-width: 100%;
+    }
+}*/

@@ -1,0 +1,118 @@
+@import url('../css.css');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    height: 52px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.code{
+    margin-top: 0;
+    margin-left: 25px;
+    font-size: 32px;
+    color: var(--blue)
+}
+
+#links{
+    display: flex;
+}
+
+#links li{
+    list-style: none; 
+}
+#links li a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: var(--font);
+    font-weight: 400;
+    transition: 0.3s;
+    color: #ffffff;
+}
+.active {
+    color: #007eec !important;
+}
+
+#links li a:hover{
+    color: var(--blue);
+}
+#networks{
+    margin-right: 10px;
+}
+
+#networks a{
+    margin: 10px;
+    transition: 0.3s;
+    color: #d1d1d1;
+}
+.linkedin-header{
+    /*color: #007eec;*/
+    transition: 0.3s;
+}
+.linkedin-header:hover{
+    color: #007eec;
+    transition: 0.5s;
+}
+.github-header:hover{
+    color: #a3a3a3;
+    transition: 0.3s;
+}
+.instagram-header{
+    /*color: purple;*/
+    transition: 0.3s;
+}
+.instagram-header:hover{
+    color: rgb(210, 76, 210);
+    transition: 0.5s;
+}
+#nav-icon{
+    display: none;
+}
+.nav-icon-logo:hover{
+    color: var(--blue);
+}
+@media screen and (max-width: 850px) {
+    .code, nav{
+        display: none;
+    }
+    header{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    #nav-icon {
+        display: block;
+        margin-left: 10px;
+        font-size: 28px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    #nav-icon:hover{
+        color: var(--blue);
+    }
+    #links li a{
+        margin: 0 20px;
+    }
+    .responsive {
+        display: block;
+        background-color: rgba(10, 10, 10, 0.8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    .responsive ul {
+        display: block !important;
+        text-align: center;
+    }
+    .responsive ul li {
+        margin: 5px auto;
+    }
+    .networks{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+}

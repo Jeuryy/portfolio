@@ -1,0 +1,82 @@
+@import url('../css.css');
+
+#aboutme {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background: linear-gradient(110deg, #FFFFFF 60%, var(--blue) 60%);*/
+}
+.aboutme{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    max-width: 800px;
+    text-align: justify;
+}
+.cv-container{
+    justify-content: center;
+    display: flex;
+}
+
+.section-title{
+    margin-bottom: 30px;
+    font-family: var(--font);
+    font-size: 18px;
+}
+.myname{
+    text-transform: uppercase;
+    font-family: var(--font);
+    color: var(--blue);
+    margin: 15px 0;
+    font-size: 32px;
+    border-bottom: 1px outset var(--blue);
+}
+.about-software{
+    text-transform: uppercase;
+    font-family: var(--font);
+    color: #000;
+    font-size: 18px;
+}
+.bio{
+    line-height: 27px;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: var(--font);
+    color: #000;
+}
+.skills-container {
+    margin-bottom: 100px;
+    max-width: 800px;
+}
+.skills-container h3{
+    letter-spacing: 5px;
+    font-family: var(--font);
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 850px) {
+    .aboutme{
+        /*margin-top: 250px;*/
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    /*.aboutme{
+        margin-top: 350px;
+    }*/
+}
+@media screen and (max-width: 350px) {
+    .aboutme{
+        margin-top: 50px;
+    }
+    .myname{
+        font-size: 28px;
+    }
+}

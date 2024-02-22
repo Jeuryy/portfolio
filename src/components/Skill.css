@@ -1,0 +1,94 @@
+@import url('../css.css');
+
+.skill-list{
+    padding: 0;
+    margin: 25px;
+}
+.skill-item{
+    list-style: none;
+}
+.skill-name{
+    color: #636363;
+    font-size: 12px;
+    font-family: var(--font);
+    font-weight: bold;
+}
+.skill-p{
+    font-size: 28px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: #7108ad;
+    letter-spacing: 1px;
+}
+.HTML{
+    color: orangered;
+}
+.CSS{
+    color: #2448fe;
+}
+.Javascript{
+    color: #ffdf5e;
+}
+.SQL{
+    color: #0ea5fd;
+}
+.Firebase{
+    color:#ffbc02
+}
+.Git{
+    color: #fd5c0c;
+}
+.Github{
+    color: #000;
+}
+.Bootstrap{
+    color: #a42dea;
+}
+.NodeJS{
+    color: #00973a;
+}
+.React{
+    color: #0febeb;
+}
+/*.skills-container h3,
+p,
+span {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.skills-container .skill {
+    max-width: 100%;
+    padding-left: 15%;
+    display: flex;
+}
+
+.skills-container .skill .info {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    flex-wrap: wrap;
+}
+
+.skills-container .skill .list ul,
+li {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.list i {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:800px) {
+    #skills-container {
+        padding: 50px 20px;
+    }
+    .list p {
+        font-size: 20px;
+    }
+}*/

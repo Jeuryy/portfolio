@@ -1,0 +1,124 @@
+@import url('../css.css');
+
+#contact{
+    padding: 5px 150px 0 150px;
+    margin-top: 200px;
+    background: linear-gradient(-45deg, #23265be9, #181818e9, #000000e9, #292e75e9);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+.contact-container{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-left{
+    width: 40%;
+    margin-top: 100px;
+}
+.contact-right{
+    max-width: 500px;
+    width: 60%;
+    margin-top: 100px;
+}
+.contact-title{
+    color: var(--blue);
+    padding-top: 50px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: var(--font);
+}
+.form-container{
+    padding-top: 50px;
+}
+    
+.input {
+        margin-bottom: 25px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid var(--background);
+        font-family: var(--font);
+        resize: none;
+        outline: none;
+        padding: 10px;
+        padding-left: 0;
+        color: #FFF;
+        transition: all .3s ease;
+}
+    
+.input::placeholder{
+    color: #c1c1c1;
+    transition: all .3s ease;
+} 
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    text-align: end;
+}
+.btn-cancel{
+    margin-right: 15px;
+    background: transparent;
+    border: none;
+    color: var(--blue);
+}
+.btn-send{
+    background: transparent;
+    border: none;
+    color: var(--blue);
+}
+.btn-cancel:hover, .btn-send:hover{
+    cursor: pointer;
+    transition: all .5s ease-out;
+}   
+
+@media screen and (max-width:880px){
+    #contact{
+        padding: 5px 50px 0 50px;
+    }
+}
+@media screen and (max-width:650px){
+    .contact-container{
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-left{
+        text-align: center;
+        width: 100%;
+    }
+    .contact-right{
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+
+/*@media screen and (max-width:800px) {
+        #contact {
+            padding: 50px 15px;
+        }
+        #contact .form-container .half {
+            margin-bottom: 15px;
+            display: block;
+        }
+        #contact .form-container .half input {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }*/
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,115 @@
+@import url('../css.css');
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home-bg.jpg');
+    background-size: cover;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+.greeting{
+    text-align: center;
+    font-family: var(--font);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.greeting p{
+    font-size: 20px;
+}
+.name{
+    color: var(--blue);
+    font-size: 32px;
+}
+.photo-container {
+    margin-left: 30px;
+    max-width: 400px;
+}
+.photo-container img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+.description{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: var(--font);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.software{
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--blue);
+}
+.developer{
+    font-size: 32px;
+}
+.projects{
+    padding: 0 5px 5px 8px;
+    animation: shadows 2s infinite;
+    box-shadow: var(--blue) 0 0 10px, var(--blue) 0 0 5px;
+}
+.projects:hover{
+    box-shadow: #FFFFFF 0 0 2px;
+    transition: .5s;
+}
+
+.projects a {
+    letter-spacing: 3px;
+    /*border-bottom: 2px solid var(--blue);*/
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: .2s;
+}
+
+.projects a:hover {
+    color: var(--blue);
+}
+
+@keyframes shadows {
+    0% { box-shadow: #48abe0 0 0 10px; }
+    50% { box-shadow: var(--blue) 0 0 10px; }
+    75% { box-shadow: var(--blue) 0 0 10px;}
+    100% { box-shadow: #48abe0 0 0 10px; }
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../assets/img/home-bg2.jpg');
+    }
+}
+@media screen and (max-width: 880px) {
+    .presentation, .photo-container{
+        margin: 0;
+    }
+    .projects{
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .greeting{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .presentation{
+        flex-direction: column;
+    }
+    .projects{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 350px) {
+    .greeting{
+        margin-top: 0;
+    }
+}
