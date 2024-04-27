@@ -6,7 +6,8 @@ import notes from '../assets/img/notes.png'
 import eggstore from "../assets/img/POS.PNG";
 import meme from "../assets/img/meme.png";
 import tenzies from "../assets/img/tenzies.png";
-import showapi from "../assets/img/show-api.png"
+import showapi from "../assets/img/show-api.png";
+import medic from "../assets/img/medyc-center.png";
 import { useInView } from 'react-intersection-observer';
 
 export default function Portfolio(){
@@ -40,6 +41,8 @@ export default function Portfolio(){
                 link="https://jeuryy.github.io/tenzies-app/" color="#133042"/>
                 <Project img={showapi} name="TV shows API"
                 link="https://jeuryy.github.io/shows-api/" color="#1ca275"/>
+                <Project img={medic} name="Medical Center"
+                link="https://github.com/Jeuryy/medic-system" color="#09954b"/>
         </div>
     </section>
     )

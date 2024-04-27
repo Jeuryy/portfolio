@@ -5,7 +5,7 @@ import Skills from './Skills'
 import { FaHtml5, FaCss3, FaDatabase, FaGithub, FaBootstrap,
     FaNode, FaReact, FaGitAlt} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiCsharp, SiFirebase } from "react-icons/si";
+import { SiCsharp, SiFirebase, SiMongodb, SiTypescript } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from 'react-intersection-observer';
@@ -61,8 +61,10 @@ export default function About(){
                     <Skills name="Git" icon={FaGitAlt}/>
                     <Skills name="Github" icon={FaGithub}/>
                     <Skills name="Bootstrap" icon={FaBootstrap}/>
+                    <Skills name="Typescript" icon={SiTypescript}/>
                     <Skills name="NodeJS" icon={FaNode}/>
                     <Skills name="React" icon={FaReact}/>
+                    <Skills name="MongoDB" icon={SiMongodb}/>
                 </div>
             </div>
         </section>
