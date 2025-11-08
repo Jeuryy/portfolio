@@ -4,8 +4,9 @@ import cv from '../assets/docs/curriculum.pdf'
 import Skills from './Skills'
 import { FaHtml5, FaCss3, FaDatabase, FaGithub, FaBootstrap,
     FaNode, FaReact, FaGitAlt} from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiCsharp, SiFirebase, SiMongodb, SiTypescript } from "react-icons/si";
+import { IoLogoJavascript, IoSettings } from "react-icons/io5";
+import { SiCsharp, SiFirebase, SiMongodb, SiPostman, SiTypescript } from "react-icons/si";
+import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from 'react-intersection-observer';
@@ -55,16 +56,19 @@ export default function About(){
                     <Skills name="HTML" icon={FaHtml5}/>
                     <Skills name="CSS" icon={FaCss3}/>
                     <Skills name="Javascript" icon={IoLogoJavascript}/>
-                    <Skills name="SQL" icon={FaDatabase}/>
-                    <Skills name="Firebase" icon={SiFirebase}/>
-                    <Skills name="C#" icon={SiCsharp}/>
-                    <Skills name="Git" icon={FaGitAlt}/>
-                    <Skills name="Github" icon={FaGithub}/>
-                    <Skills name="Bootstrap" icon={FaBootstrap}/>
                     <Skills name="Typescript" icon={SiTypescript}/>
                     <Skills name="NodeJS" icon={FaNode}/>
                     <Skills name="React" icon={FaReact}/>
                     <Skills name="MongoDB" icon={SiMongodb}/>
+                    <Skills name="NextJS" icon={TbBrandNextjs}/>
+                    <Skills name="Tailwind" icon={TbBrandTailwind}/>
+                    <Skills name="Bootstrap" icon={FaBootstrap}/>
+                    <Skills name="SQL" icon={FaDatabase}/>
+                    <Skills name="Firebase" icon={SiFirebase}/>
+                    <Skills name="api REST" icon={IoSettings}/>
+                    <Skills name="Git" icon={FaGitAlt}/>
+                    <Skills name="Github" icon={FaGithub}/>
+                    
                 </div>
             </div>
         </section>

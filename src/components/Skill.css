@@ -30,7 +30,7 @@
 .Javascript{
     color: #ffdf5e;
 }
-.SQL{
+.SQL, .Tailwind{
     color: #0ea5fd;
 }
 .Firebase{
@@ -39,7 +39,7 @@
 .Git{
     color: #fd5c0c;
 }
-.Github{
+.Github, .NextJS, .api{
     color: #000;
 }
 .Bootstrap{
@@ -57,6 +57,7 @@
 .Typescript{
     color: #3178c6;
 }
+
 /*.skills-container h3,
 p,
 span {

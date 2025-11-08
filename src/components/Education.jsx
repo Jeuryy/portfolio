@@ -26,7 +26,7 @@ export default function Education(){
         <p className="title">Education</p>
         <div className="row">
             <School name="Electrónica Digital y Micro-computación" date="2017 - 2019" img={politecnico} alt="Politecnico Las Americas"/>
-            <School name="Senior Technician in Software Development" date="2020 - Present" img={itsc} alt="ITSC"/>
+            <School name="Senior Technician in Software Development" date="2020 - 2024" img={itsc} alt="ITSC"/>
             <School name="Front End Jr. Developer" date="2022 - 2023" img={alura} alt="Alura - Oracle Next Education"/>
             <School name="Software Engineer" date="2024 - Present" img={ufhec} alt="UFHEC"/>
         </div>

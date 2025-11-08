@@ -53,25 +53,28 @@
     font-size: 32px;
 }
 .projects{
-    padding: 0 5px 5px 8px;
-    animation: shadows 2s infinite;
-    box-shadow: var(--blue) 0 0 10px, var(--blue) 0 0 5px;
-}
-.projects:hover{
-    box-shadow: #FFFFFF 0 0 2px;
-    transition: .5s;
-}
-
-.projects a {
-    letter-spacing: 3px;
+    padding: 5px 10px 8px 10px;
+    border-radius: 15px;
+    letter-spacing: 1px;
     /*border-bottom: 2px solid var(--blue);*/
     text-decoration: none;
-    color: #FFFFFF;
-    transition: .2s;
+    color: #FFF;
+    /*transition: .2s;*/
+    animation: shadows 5s infinite;
+    background-color: var(--second-blue);
+    font-weight: 600;
+    /*box-shadow: var(--blue) 0 0 10px, var(--blue) 0 0 5px;*/
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
 }
-
-.projects a:hover {
-    color: var(--blue);
+.projects:hover{
+    /*box-shadow: none;*/
+    background-color: var(--blue);
+    animation: none;
+    border: none;
+    font-weight: bold;
+    transition: .2s;
 }
 
 @keyframes shadows {
