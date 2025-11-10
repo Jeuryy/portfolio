@@ -5,7 +5,7 @@ import Skills from './Skills'
 import { FaHtml5, FaCss3, FaDatabase, FaGithub, FaBootstrap,
     FaNode, FaReact, FaGitAlt} from "react-icons/fa";
 import { IoLogoJavascript, IoSettings } from "react-icons/io5";
-import { SiCsharp, SiFirebase, SiMongodb, SiPostman, SiTypescript } from "react-icons/si";
+import { SiFirebase, SiMongodb, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -44,10 +44,14 @@ export default function About(){
                 </p>
                 <p className="bio">
                 In my daily basis I'm used to be someone very energetic and 
-                creative so I'm just trying to bring all that to the world of programming!
+                creative so I'm just trying to bring all that to the world of software!
                 </p>
                 <div className="cv-container">
-                    <a href={cv} target="_blank" className="button-52" id="cv" rel='noreferrer'>Resume</a>
+                    <a href={cv} target="_blank" className="button-52" 
+                        id="cv" rel='noreferrer' title="See resume"
+                    >
+                        Resume
+                    </a>
                 </div>
             </div>
             <div className="skills-container" id="skills">

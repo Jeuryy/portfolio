@@ -52,8 +52,10 @@
 .skills-container h3{
     letter-spacing: 5px;
     font-family: var(--font);
+    font-size: 24px;
     margin-bottom: 25px;
-    margin-left: 50px;
+    text-align: center;
+    font-weight: 500;
 }
 .skill{
     display: flex;

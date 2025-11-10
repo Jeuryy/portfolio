@@ -60,12 +60,12 @@ header{
     color: #a3a3a3;
     transition: 0.3s;
 }
-.instagram-header{
+.gmail-header{
     /*color: purple;*/
     transition: 0.3s;
 }
-.instagram-header:hover{
-    color: rgb(210, 76, 210);
+.gmail-header:hover{
+    color: rgb(213, 42, 42);
     transition: 0.5s;
 }
 #nav-icon{

@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from 'react-intersection-observer';
-import { FaArrowDown } from "react-icons/fa6";
 
 export default function Presentation(){
     const home = document.getElementById("home1");

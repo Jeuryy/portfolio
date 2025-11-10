@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useState} from 'react';
 import './Header.css'
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub} from "react-icons/fa";
 import { IoCodeSlashOutline } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
+import { FiMail } from "react-icons/fi";
 
 export default function Header(props){
 
@@ -14,7 +15,6 @@ export default function Header(props){
     const styles = {
         color: responsive ? "#495bfe" : "#FFFFFF"
     }
-
     return (
         <header /*onClick={props.handleHash}*/>
                 <IoCodeSlashOutline className='code'/>
@@ -30,7 +30,7 @@ export default function Header(props){
                 <div id="networks">
                     <a href="https://www.linkedin.com/in/jeury-pierre-dide/" target="_blank" rel='noreferrer'><FaLinkedin className='linkedin-header'/></a>
                     <a href="https://github.com/Jeuryy" target="_blank" rel='noreferrer'><FaGithub className='github-header'/></a>
-                    <a href="https://www.instagram.com/jeury_pd/" target="_blank" rel='noreferrer'><FaInstagram className='instagram-header'/></a>
+                    <a href="mailto:jeury.pierre@gmail.com?subject=Mensaje%20desde%20portafolio" target="_blank" rel='noreferrer'><FiMail className='gmail-header'/></a>
                 </div>
         </header>
     )

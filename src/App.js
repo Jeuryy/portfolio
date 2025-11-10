@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import {useState, useEffect } from "react";
+import {useEffect, useState} from "react";
 import Presentation from './components/Presentation';
 import About from './components/About';
 import Education from './components/Education';
@@ -16,6 +16,17 @@ function App() {
     {href:'contact', content: "Contact", id: `contact${5}`}
   ]);
 
+  useEffect(() => {
+    const handleHashChange = () => {
+      if(window.location.hash === "#home")  window.location.hash = "";
+    };
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, [])
+
   const nav = elements.map(el => <li><a
         key={`${el.id}`}
         href={`#${el.href}`}
@@ -23,7 +34,8 @@ function App() {
         id={`${el.id}`}
         className="nav-item">
         {el.content}
-    </a></li>)
+    </a></li>
+  )
 
   return (
   <div className="App">

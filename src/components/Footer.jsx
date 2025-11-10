@@ -1,3 +1,4 @@
+import { FiMail } from "react-icons/fi";
 import './Footer.css'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
 
@@ -17,6 +18,8 @@ export default function Footer(){
                     <FaInstagram className='instagram icon' /></a>
                 <a href='https://github.com/Jeuryy' target='_blank' rel='noreferrer'>
                     <FaGithub className='github icon' /></a>
+                <a href="mailto:jeury.pierre@gmail.com?subject=Mensaje%20desde%20portafolio" target="_blank" rel='noreferrer'>
+                    <FiMail className='gmail icon'/></a>
                 <a href='https://twitter.com/jeury102002' target='_blank' rel='noreferrer'>
                     <FaTwitter className='twitter icon' /></a>
             </div>
