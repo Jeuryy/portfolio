@@ -26,7 +26,7 @@ export default function Portfolio(){
         } else {
             entry !== undefined && portfolio.classList.remove("active")
         }
-    }, [entry, inView, portfolio.classList])
+    }, [entry, inView, portfolio])
 
     return (
         <section id="projects" data-observer ref={ref}>
