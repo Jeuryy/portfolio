@@ -54,8 +54,17 @@
 .MongoDB{
     color: #09954b;
 }
-.Typescript{
+.Typescript, .Cloudinary{
     color: #3178c6;
+}
+.PostgreSQL {
+    color: #376692;
+}
+.Prisma {
+    color: #72c19b;
+}
+.Figma {
+    color: #f04e1d;
 }
 
 /*.skills-container h3,

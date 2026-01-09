@@ -3,9 +3,10 @@ import './About.css'
 import cv from '../assets/docs/curriculum.pdf'
 import Skills from './Skills'
 import { FaHtml5, FaCss3, FaDatabase, FaGithub, FaBootstrap,
-    FaNode, FaReact, FaGitAlt} from "react-icons/fa";
+    FaNode, FaReact, FaGitAlt,
+    FaFigma} from "react-icons/fa";
 import { IoLogoJavascript, IoSettings } from "react-icons/io5";
-import { SiFirebase, SiMongodb, SiTypescript } from "react-icons/si";
+import { SiFirebase, SiMongodb, SiPostgresql, SiPrisma, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +30,7 @@ export default function About(){
         } else {
             entry !== undefined && aboutme.classList.remove("active")
         }
-    }, [inView])
+    }, [inView, aboutme, entry])
 
     return (
         <section id="aboutme" data-aos="fade-right" data-observer ref={ref}>
@@ -61,18 +62,20 @@ export default function About(){
                     <Skills name="CSS" icon={FaCss3}/>
                     <Skills name="Javascript" icon={IoLogoJavascript}/>
                     <Skills name="Typescript" icon={SiTypescript}/>
-                    <Skills name="NodeJS" icon={FaNode}/>
                     <Skills name="React" icon={FaReact}/>
-                    <Skills name="MongoDB" icon={SiMongodb}/>
-                    <Skills name="NextJS" icon={TbBrandNextjs}/>
                     <Skills name="Tailwind" icon={TbBrandTailwind}/>
                     <Skills name="Bootstrap" icon={FaBootstrap}/>
+                    <Skills name="NextJS" icon={TbBrandNextjs}/>
+                    <Skills name="NodeJS" icon={FaNode}/>
+                    <Skills name="PostgreSQL" icon={SiPostgresql}/>
+                    <Skills name="Prisma" icon={SiPrisma}/>
+                    <Skills name="MongoDB" icon={SiMongodb}/>
                     <Skills name="SQL" icon={FaDatabase}/>
                     <Skills name="Firebase" icon={SiFirebase}/>
                     <Skills name="api REST" icon={IoSettings}/>
                     <Skills name="Git" icon={FaGitAlt}/>
                     <Skills name="Github" icon={FaGithub}/>
-                    
+                    <Skills name="Figma" icon={FaFigma}/>
                 </div>
             </div>
         </section>
