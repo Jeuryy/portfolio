@@ -1,1 +1,1 @@
-https://jeuryy.github.io/portfolio/
+https://jeuryy.github.io/portfolio
