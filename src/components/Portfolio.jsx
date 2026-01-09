@@ -8,7 +8,9 @@ import meme from "../assets/img/meme.png";
 import tenzies from "../assets/img/tenzies.png";
 import showapi from "../assets/img/show-api.png";
 import medic from "../assets/img/medyc-center.png";
-import shoptime from "../assets/img/shoptime.jpeg"
+import shoptime from "../assets/img/shoptime.jpeg";
+import quickai from "../assets/img/quickai.png";
+import fortunazord from "../assets/img/fortunazord.png";
 import { useInView } from 'react-intersection-observer';
 
 export default function Portfolio(){
@@ -24,12 +26,16 @@ export default function Portfolio(){
         } else {
             entry !== undefined && portfolio.classList.remove("active")
         }
-    }, [inView])
+    }, [entry, inView, portfolio.classList])
 
     return (
         <section id="projects" data-observer ref={ref}>
         <p className="project-title">MY PROJECTS</p>
         <div className="project-row">
+            <Project img={fortunazord} name="FortunazoRD- Increibles Sorteos desde la REP. DOM."
+                link="https://www.fortunazord.com/" color="#c29836"/>
+            <Project img={quickai} name="QuickAI - Powered by AI"
+                link="https://quickai-rose.vercel.app/" color="#5144e4"/>
             <Project img={shoptime} name="Virtual Store - Shoptime"
                 link="https://shoptime-nine.vercel.app" color="#9dcc9c"/>
             <Project img={notes} name="Notes App"
@@ -46,8 +52,6 @@ export default function Portfolio(){
                 link="https://github.com/Jeuryy/tiendaHuevos" color="#fcab15fc"/>
             <Project img={meme} name="Meme Generator"
                 link="https://jeuryy.github.io/meme-generator/" color="#750092fc"/>
-           
-            
         </div>
     </section>
     )
