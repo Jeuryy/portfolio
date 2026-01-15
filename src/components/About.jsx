@@ -6,7 +6,7 @@ import { FaHtml5, FaCss3, FaDatabase, FaGithub, FaBootstrap,
     FaNode, FaReact, FaGitAlt,
     FaFigma} from "react-icons/fa";
 import { IoLogoJavascript, IoSettings } from "react-icons/io5";
-import { SiFirebase, SiMongodb, SiPostgresql, SiPrisma, SiTypescript } from "react-icons/si";
+import { SiCsharp, SiFirebase, SiMongodb, SiPostgresql, SiPrisma, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -61,6 +61,7 @@ export default function About(){
                     <Skills name="HTML" icon={FaHtml5}/>
                     <Skills name="CSS" icon={FaCss3}/>
                     <Skills name="Javascript" icon={IoLogoJavascript}/>
+                    <Skills name="C#" icon={SiCsharp}/>
                     <Skills name="Typescript" icon={SiTypescript}/>
                     <Skills name="React" icon={FaReact}/>
                     <Skills name="Tailwind" icon={TbBrandTailwind}/>
