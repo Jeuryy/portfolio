@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.be33d8c4.css",
-    "main.js": "/portfolio/static/js/main.32ff4519.js",
+    "main.js": "/portfolio/static/js/main.563350ce.js",
     "static/media/fortunazord.png": "/portfolio/static/media/fortunazord.8014564efbaeaa38d1f1.png",
     "static/media/logo.png": "/portfolio/static/media/logo.f2c409d366bb62de7bc9.png",
     "static/media/encriptador.png": "/portfolio/static/media/encriptador.69cc398572373d3b9aee.png",
@@ -9,7 +9,7 @@
     "static/media/show-api.png": "/portfolio/static/media/show-api.cdbd929a71bc1cbc0afe.png",
     "static/media/shoptime.jpeg": "/portfolio/static/media/shoptime.7963dcc3cc9df00b09b0.jpeg",
     "static/media/quickai.png": "/portfolio/static/media/quickai.0c1193fdb656ae77e5aa.png",
-    "static/media/curriculum.pdf": "/portfolio/static/media/curriculum.b8c77e6ca45d7952fc05.pdf",
+    "static/media/curriculum.pdf": "/portfolio/static/media/curriculum.4c0638d3aec56179500c.pdf",
     "static/media/politecnico.png": "/portfolio/static/media/politecnico.d3ad939853673b93c4c7.png",
     "static/media/home-bg2.jpg": "/portfolio/static/media/home-bg2.d6ef1f206fd715aac311.jpg",
     "static/media/medyc-center.png": "/portfolio/static/media/medyc-center.1f6b15dec527dbf15549.png",
@@ -20,10 +20,10 @@
     "static/media/ufhec.png": "/portfolio/static/media/ufhec.480977a2aed049ac61ad.png",
     "index.html": "/portfolio/index.html",
     "main.be33d8c4.css.map": "/portfolio/static/css/main.be33d8c4.css.map",
-    "main.32ff4519.js.map": "/portfolio/static/js/main.32ff4519.js.map"
+    "main.563350ce.js.map": "/portfolio/static/js/main.563350ce.js.map"
   },
   "entrypoints": [
     "static/css/main.be33d8c4.css",
-    "static/js/main.32ff4519.js"
+    "static/js/main.563350ce.js"
   ]
 }
